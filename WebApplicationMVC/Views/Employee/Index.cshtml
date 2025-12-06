@@ -1,0 +1,70 @@
+﻿@model List<Employee>
+
+<div class="container mt-4">
+	<div class="d-flex justify-content-between align-items-center mb-3">
+		<h2 class="fw-bold">Employee List</h2>
+		<div>
+			<a href="/Employee/Create" class="btn btn-primary me-2">+ Add Employee</a>
+			<a href="/Employee/Deleted" class="btn btn-warning">Deleted Employees</a>
+		</div>
+	</div>
+
+	<table class="table table-striped table-bordered shadow-sm align-middle">
+		<thead class="table-dark">
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Created</th>
+				<th>Updated</th>
+				<th style="width: 200px;">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var e in Model)
+			{
+				<tr>
+					<td>@e.FirstName @e.LastName</td>
+					<td>@e.Email</td>
+					<td>@e.Phone</td>
+
+					<td>@e.CreatedDate.ToString("dd-MMM-yyyy hh:mm tt")</td>
+
+					<td>
+						@if (e.UpdatedDate != null)
+						{
+							@e.UpdatedDate?.ToString("dd-MMM-yyyy hh:mm tt")
+						}
+						else
+						{
+							<span class="text-muted">Not Updated</span>
+						}
+					</td>
+
+					<td>
+						<div class="btn-group">
+
+							<a href="/Employee/Details/@e.EmployeeId"
+							   class="btn btn-info btn-sm text-white">Details</a>
+
+							<a href="/Employee/Edit/@e.EmployeeId"
+							   class="btn btn-sm btn-primary">Edit</a>
+
+							<button class="btn btn-danger btn-sm"
+									onclick="openConfirm(
+	                    '/Employee/Delete/@e.EmployeeId',
+	                    'Confirm Delete',
+	                    'Are you sure you want to delete @e.FirstName @e.LastName?',
+	                    'Delete'
+	                )">
+								Delete
+							</button>
+
+						</div>
+					</td>
+
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

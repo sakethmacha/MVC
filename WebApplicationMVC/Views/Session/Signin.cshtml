@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Signin Page";
+}
+<link rel="stylesheet" href="~/css/Signin.css" />
+
+<div class="login-box">
+<h1>Signin</h1>
+
+<form method="post">
+    <input name="username" placeholder="Username" /><br />
+    <input name="password" type="password" placeholder="Password" /><br />
+    <button type="submit">Signin</button>
+</form>
+
+<p style="color:red">@ViewBag.Error</p>
+</div>

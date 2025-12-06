@@ -1,0 +1,39 @@
+﻿@model WebApplicationMVC.ViewModels.ProductViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <h2>Welcome to the Homepage</h2>
+@for (int i = 0; i < 3; i++)
+{
+    @if (i==0)
+    {
+        <p>First Time</p>
+    }
+    else
+    {
+        <p>Next Time</p>
+    }
+
+    @await Html.PartialAsync("UserCard")
+}
+
+
+   @* @await Html.PartialAsync("UserCard", Model) *@
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+<a href="/Home/SecretPage">Go to Secret Page</a>
+<br />
+<a href="/Account/Login">Login</a>
+</div>
+
+<div>
+<a href="/Session/SecurePage">Go to Secure Page</a>
+<br />
+<a href="/Session/Signin">Signin</a>
+</div>
+

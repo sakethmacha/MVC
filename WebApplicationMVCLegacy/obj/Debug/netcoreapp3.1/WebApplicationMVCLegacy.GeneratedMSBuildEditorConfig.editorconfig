@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = WebApplicationMVCLegacy
+build_property.ProjectDir = C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVCLegacy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

@@ -1,0 +1,41 @@
+﻿@model List<Employee>
+
+<div class="container mt-4">
+    <h2 class="fw-bold">Deleted Employees</h2>
+
+    <a href="/Employee/Index" class="btn btn-secondary mb-3">← Back</a>
+
+    <table class="table table-bordered table-striped shadow-sm">
+        <thead class="table-danger">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Deleted On</th>
+                <th style="width:150px;">Restore</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e.FirstName @e.LastName</td>
+                    <td>@e.Email</td>
+                    <td>@e.UpdatedDate?.ToString("dd-MMM-yyyy hh:mm tt")</td>
+
+                    <td>
+                        <button class="btn btn-success btn-sm"
+                                onclick="openConfirm(
+                            '/Employee/Restore/@e.EmployeeId',
+                            'Restore Employee',
+                            'Are you sure you want to restore @e.FirstName @e.LastName?',
+                            'Restore'
+                        )">
+                            Restore
+                        </button>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,38 @@
+﻿@model Employee
+
+<div class="container mt-4">
+    <h2 class="fw-bold">Employee Details</h2>
+
+    <div class="card shadow p-4 mt-3">
+        <p><strong>Name:</strong> @Model.FirstName @Model.LastName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone:</strong> @Model.Phone</p>
+        <p><strong>Age:</strong> @Model.Age</p>
+        <p><strong>DOB:</strong> @Model.DOB.ToString("dd-MMM-yyyy")</p>
+        <p><strong>Address:</strong> @Model.Address</p>
+        <p><strong>Salary:</strong> @Model.Salary</p>
+        <p><strong>Created:</strong> @Model.CreatedDate.ToString("dd-MMM-yyyy hh:mm tt")</p>
+
+        @if (Model.UpdatedDate != null)
+        {
+            <p><strong>Last Updated:</strong> @Model.UpdatedDate?.ToString("dd-MMM-yyyy hh:mm tt")</p>
+        }
+        else
+        {
+            <p><strong>Last Updated:</strong> Not Updated Yet</p>
+        }
+
+        @if (Model.IsDeleted)
+        {
+            <div class="alert alert-danger mt-3"><b>Status:</b> Deleted</div>
+            <a href="/Employee/Restore/@Model.EmployeeId" class="btn btn-success">Restore</a>
+        }
+        else
+        {
+            <a href="/Employee/Edit/@Model.EmployeeId" class="btn btn-primary">Edit</a>
+            <a href="/Employee/Delete/@Model.EmployeeId" class="btn btn-danger">Delete</a>
+        }
+
+        <a href="/Employee/Index" class="btn btn-secondary ms-2">Back</a>
+    </div>
+</div>

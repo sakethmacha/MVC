@@ -1,0 +1,11 @@
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\bin\Debug\net9.0\WebApplicationMVC.Validations.deps.json
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\bin\Debug\net9.0\WebApplicationMVC.Validations.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\bin\Debug\net9.0\WebApplicationMVC.Validations.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.AssemblyInfoInputs.cache
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.AssemblyInfo.cs
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.csproj.CoreCompileInputs.cache
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\refint\WebApplicationMVC.Validations.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\WebApplicationMVC.Validations.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Validations\obj\Debug\net9.0\ref\WebApplicationMVC.Validations.dll

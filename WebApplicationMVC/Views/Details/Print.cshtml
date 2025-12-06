@@ -1,0 +1,29 @@
+﻿@model WebApplicationMVC.ViewModels.CreateViewModel
+
+@if (Model != null && Model.InsertedItem != null)
+{
+    <h3 style="color: green;">✔ Data Inserted Successfully</h3>
+    <p><strong>Name:</strong> @Model.InsertedItem.Name</p>
+    <p><strong>Password:</strong> @Model.InsertedItem.Password</p>
+
+    <hr />
+
+    <h3>All Records</h3>
+
+    <table class="table table-bordered">
+        <tr style="background-color:#343a40;color:white;">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Password</th>
+        </tr>
+
+        @foreach (var item in Model.AllRecords)
+        {
+            <tr>
+                <td>@item.DetailsId</td>
+                <td>@item.Name</td>
+                <td>@item.Password</td>
+            </tr>
+        }
+    </table>
+}

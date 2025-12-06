@@ -1,0 +1,27 @@
+﻿@model Employee
+
+<div class="container mt-4">
+    <h2 class="fw-bold text-center">Edit Employee</h2>
+
+    <div class="card shadow p-4 mt-3">
+        <form asp-action="Edit">
+
+            @Html.HiddenFor(m => m.EmployeeId)
+            @Html.HiddenFor(m => m.CreatedDate)
+
+            @Html.Partial("_EmployeeForm", Model)
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a href="/Employee/Index" class="btn btn-secondary ms-2">Cancel</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script src="~/js/Email-Validation.js"></script>
+    <script src="~/js/Password-Validation.js"></script>
+    <script src="~/js/Phone-Validation.js"></script>
+    <script src="~/js/NoNumbers-Validation.js"></script>
+}
+

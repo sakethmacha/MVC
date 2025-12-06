@@ -1,0 +1,127 @@
+﻿@model WebApplicationMVC.Models.Models.Student
+
+<div class="form-container">
+    <h2 class="form-title">Create Student</h2>
+
+    <form asp-action="Create" method="post" class="styled-form">
+
+        <!-- Validation Summary -->
+        @* <div asp-validation-summary="All" class="validation-summary"></div> *@
+        @if(!ViewData.ModelState.IsValid)
+        {
+            <div asp-validation-summary="All" class="validation-summary"></div>
+        }
+
+        <div class="form-group">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-input" />
+            <span asp-validation-for="Name" class="field-error"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="City" class="form-label"></label>
+            <input asp-for="City" class="form-input" />
+            <span asp-validation-for="City" class="field-error"></span>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+    </form>
+</div>
+
+<style>
+    /* Page Background */
+    body {
+        background: #f0f2f5;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Form Container */
+    .form-container {
+        max-width: 420px;
+        margin: 60px auto;
+        padding: 25px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .form-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+    }
+
+    /* Form Styling */
+    .styled-form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: #555;
+    }
+
+    .form-input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        transition: 0.3s ease;
+    }
+
+        .form-input:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 4px rgba(0,123,255,0.4);
+        }
+
+    /* Validation Messages */
+    .field-error {
+        color: #d9534f;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .validation-summary {
+        color: #d9534f;
+        padding: 10px;
+        border: 1px solid #d9534f;
+        background: #f8d7da;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    /* Submit Button */
+    .btn-submit {
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+        .btn-submit:hover {
+            background: #0056b3;
+        }
+</style>
+
+
+@section Scripts {
+    <!-- Enables client-side validation -->
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/NoNumbers-Validation.js"></script>
+}
+}

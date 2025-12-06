@@ -1,0 +1,17 @@
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Interfaces.deps.json
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Interfaces.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Interfaces.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Models.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Models.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.AssemblyInfo.cs
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebAppli.29B044AA.Up2Date
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\refint\WebApplicationMVC.Interfaces.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\ref\WebApplicationMVC.Interfaces.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Validations.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Validations.pdb
