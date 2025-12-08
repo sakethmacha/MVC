@@ -1,7 +1,10 @@
 ﻿
 
 $.validator.addMethod("nonumbers", function (value, element) {
-    if (!value) return true;
+    if (!value)
+    {
+        return true;
+    }
     return !/\d/.test(value);
 });
 

@@ -47,6 +47,10 @@ namespace WebApplicationMVC.Models.Migrations
                     b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Department")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -57,7 +61,14 @@ namespace WebApplicationMVC.Models.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsMarried")
                         .HasColumnType("bit");
 
                     b.Property<string>("LastName")
@@ -92,6 +103,7 @@ namespace WebApplicationMVC.Models.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DetailsId"));
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
@@ -100,6 +112,81 @@ namespace WebApplicationMVC.Models.Migrations
                     b.HasKey("DetailsId");
 
                     b.ToTable("Detailss");
+                });
+
+            modelBuilder.Entity("WebApplicationMVC.Models.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("StatusId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StatusId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("WebApplicationMVC.Models.Models.OrderStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrderStatuses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Order is waiting to be processed",
+                            Name = "Pending"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Order is currently being prepared",
+                            Name = "Processing"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Order has been completed",
+                            Name = "Completed"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Order has been cancelled by the user or admin",
+                            Name = "Cancelled"
+                        });
                 });
 
             modelBuilder.Entity("WebApplicationMVC.Models.Models.Student", b =>
@@ -111,6 +198,7 @@ namespace WebApplicationMVC.Models.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -120,6 +208,17 @@ namespace WebApplicationMVC.Models.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("WebApplicationMVC.Models.Models.Order", b =>
+                {
+                    b.HasOne("WebApplicationMVC.Models.Models.OrderStatus", "Status")
+                        .WithMany()
+                        .HasForeignKey("StatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Status");
                 });
 #pragma warning restore 612, 618
         }

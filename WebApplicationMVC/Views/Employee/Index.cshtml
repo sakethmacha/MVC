@@ -15,6 +15,9 @@
 				<th>Name</th>
 				<th>Email</th>
 				<th>Phone</th>
+				<th>Gender</th>
+				<th>IsMarried</th>
+				<th>Department</th>
 				<th>Created</th>
 				<th>Updated</th>
 				<th style="width: 200px;">Actions</th>
@@ -27,7 +30,9 @@
 					<td>@e.FirstName @e.LastName</td>
 					<td>@e.Email</td>
 					<td>@e.Phone</td>
-
+					<td>@e.Gender</td>
+					<td>@e.IsMarried</td>
+					<td>@e.Department</td>
 					<td>@e.CreatedDate.ToString("dd-MMM-yyyy hh:mm tt")</td>
 
 					<td>
@@ -52,12 +57,11 @@
 
 							<button class="btn btn-danger btn-sm"
 									onclick="openConfirm(
-	                    '/Employee/Delete/@e.EmployeeId',
-	                    'Confirm Delete',
-	                    'Are you sure you want to delete @e.FirstName @e.LastName?',
-	                    'Delete'
-	                )">
-								Delete
+											'/Employee/Delete/@e.EmployeeId',
+											'Confirm Delete',
+											'Are you sure you want to delete @e.FirstName @e.LastName?',
+											'Delete')">Delete
+										
 							</button>
 
 						</div>

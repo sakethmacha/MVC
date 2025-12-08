@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models.Models;
 using WebApplicationMVC.Services.Services;
-using WebApplicationMVC_Services.Services;
 namespace WebApplicationMVC
 {
     public class Program
@@ -22,16 +21,12 @@ namespace WebApplicationMVC
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("Constr")));
-            // builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            //    options.UseSqlServer(
-            //        builder.Configuration.GetConnectionString("Constr"),
-            //        sql => sql.EnableRetryOnFailure()   // Fix transient errors
-            //    )
-            //);
 
             //var conestring = builder.Configuration.GetConnectionString("Constr");
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

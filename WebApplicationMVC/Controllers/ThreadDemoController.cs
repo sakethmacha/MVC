@@ -15,7 +15,7 @@ namespace WebApplicationMVC.Controllers
 
         public IActionResult SyncTest()
         {
-            Thread.Sleep(5000); // simulate long DB/query work (blocks thread)
+           Thread.Sleep(5000); // simulate long DB/query work (blocks thread)
 
             var products = _context.Students
                                    .OrderBy(p => p.Name)

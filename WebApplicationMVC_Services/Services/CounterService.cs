@@ -1,6 +1,6 @@
 ﻿using WebApplicationMVC.Interfaces.Interfaces;
 
-namespace WebApplicationMVC_Services.Services
+namespace WebApplicationMVC.Services.Services
 {
     public class CounterService : ICounterService
     {

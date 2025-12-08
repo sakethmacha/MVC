@@ -1,30 +1,14 @@
-﻿// Email Custom Validation (Client-Side)
+﻿// Email Custom Validation (Client-Side using Regex)
 $.validator.addMethod("emailvalidate", function (value, element) {
-    if (!value) return true;  // allow empty; [Required] handles null check
 
-    value = value.toLowerCase();
+    if (!value) {
+        return true; // Let [Required] handle empty values
+    }
 
-    // Must contain @
-    if (value.indexOf("@") === -1) return false;
+    // Same regex as server-side validation
+    var pattern = /^[A-Za-z0-9]+@[A-Za-z]+\.com$/;
 
-    let atIndex = value.indexOf("@");
-
-    // Username must exist before @
-    if (atIndex === 0) return false;
-
-    // Must end with .com
-    if (!value.endsWith(".com")) return false;
-
-    // Extract domain between @ and .com
-    let domain = value.substring(atIndex + 1, value.length - 4);
-
-    // Domain required
-    if (domain.trim().length === 0) return false;
-
-    // Domain cannot start with dot → @.com invalid
-    if (domain.startsWith(".")) return false;
-
-    return true;
+    return pattern.test(value);
 });
 
 $.validator.unobtrusive.adapters.add("emailvalidate", [], function (options) {

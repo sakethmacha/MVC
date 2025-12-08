@@ -4,64 +4,133 @@
 
 <div class="row">
 
+    <!-- First Name -->
     <div class="col-md-6 mb-3">
-        <label asp-for="FirstName" class="form-label"></label>
+        <label asp-for="FirstName" class="form-label required"></label>
         <input asp-for="FirstName" class="form-control" />
         <span asp-validation-for="FirstName" class="text-danger"></span>
     </div>
 
+    <!-- Last Name -->
     <div class="col-md-6 mb-3">
-        <label asp-for="LastName" class="form-label"></label>
+        <label asp-for="LastName" class="form-label required"></label>
         <input asp-for="LastName" class="form-control" />
         <span asp-validation-for="LastName" class="text-danger"></span>
     </div>
 
+    <!-- Email -->
     <div class="col-md-6 mb-3">
-        <label asp-for="Email" class="form-label"></label>
+        <label asp-for="Email" class="form-label required"></label>
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
+    <!-- Phone -->
     <div class="col-md-6 mb-3">
-        <label asp-for="Phone" class="form-label"></label>
+        <label asp-for="Phone" class="form-label required"></label>
         <input asp-for="Phone" class="form-control" />
         <span asp-validation-for="Phone" class="text-danger"></span>
     </div>
 
+    <!-- Age -->
     <div class="col-md-6 mb-3">
-        <label asp-for="Age" class="form-label"></label>
-        <input asp-for="Age" class="form-control" />
+        <label asp-for="Age" class="form-label required"></label>
+        <input asp-for="Age" class="form-control" type="number" step="1"
+               oninput="this.value = this.value.replace(/[^0-9]/g,'');" />
         <span asp-validation-for="Age" class="text-danger"></span>
     </div>
 
+    <!-- DOB -->
     <div class="col-md-6 mb-3">
-        <label asp-for="DOB" class="form-label"></label>
+        <label asp-for="DOB" class="form-label required"></label>
         <input asp-for="DOB" type="date" class="form-control" />
         <span asp-validation-for="DOB" class="text-danger"></span>
     </div>
 
-    <div class="col-md-12 mb-3">
-        <label asp-for="Address" class="form-label"></label>
-        <input asp-for="Address" class="form-control" />
-        <span asp-validation-for="Address" class="text-danger"></span>
+    <!-- Gender (Horizontal Radio Buttons) -->
+    <div class="col-md-6 mb-3">
+        <label class="form-label required">Gender</label>
+
+        <div class="d-flex gap-4 pt-2">
+
+            <div class="form-check">
+                <input type="radio" asp-for="Gender" class="form-check-input" value="Male" />
+                <label class="form-check-label">Male</label>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" asp-for="Gender" class="form-check-input" value="Female" />
+                <label class="form-check-label">Female</label>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" asp-for="Gender" class="form-check-input" value="Other" />
+                <label class="form-check-label">Other</label>
+            </div>
+
+        </div>
+
+        <span asp-validation-for="Gender" class="text-danger"></span>
     </div>
 
+    <!-- Department Dropdown -->
     <div class="col-md-6 mb-3">
-        <label asp-for="Salary" class="form-label"></label>
+        <label asp-for="Department" class="form-label required"></label>
+        <select asp-for="Department" class="form-select">
+            <option value="">-- Select Department --</option>
+            <option value="HR">HR</option>
+            <option value="IT">IT</option>
+            <option value="Finance">Finance</option>
+            <option value="Sales">Sales</option>
+            <option value="Marketing">Marketing</option>
+        </select>
+        <span asp-validation-for="Department" class="text-danger"></span>
+    </div>
+
+    <!-- Marital Status -->
+    <div class="col-md-6 mb-3">
+        <label class="form-label">Marital Status</label>
+        <div class="form-check">
+            <input asp-for="IsMarried" class="form-check-input" type="checkbox" />
+            <label asp-for="IsMarried" class="form-check-label ms-2">Married</label>
+        </div>
+        <span asp-validation-for="IsMarried" class="text-danger"></span>
+    </div>
+
+    <!-- Salary -->
+    <div class="col-md-6 mb-3">
+        <label asp-for="Salary" class="form-label required"></label>
         <input asp-for="Salary" class="form-control" />
         <span asp-validation-for="Salary" class="text-danger"></span>
     </div>
 
+    <!-- Address -->
+    <div class="col-md-12 mb-3">
+        <label asp-for="Address" class="form-label required"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <!-- Password -->
     <div class="col-md-6 mb-3">
-        <label asp-for="Password" class="form-label"></label>
+        <label asp-for="Password" class="form-label required"></label>
         <input asp-for="Password" class="form-control" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
 
+    <!-- Confirm Password -->
     <div class="col-md-6 mb-3">
-        <label asp-for="ConfirmPassword" class="form-label"></label>
+        <label asp-for="ConfirmPassword" class="form-label required"></label>
         <input asp-for="ConfirmPassword" class="form-control" />
         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     </div>
 
 </div>
+
+<style>
+    .required::after {
+        content: " *";
+        color: red;
+        font-weight: bold;
+    }
+</style>

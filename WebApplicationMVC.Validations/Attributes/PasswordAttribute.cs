@@ -1,39 +1,46 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
 
 namespace WebApplicationMVC.Validations.Attributes
 {
     public class PasswordAttribute : ValidationAttribute, IClientModelValidator
     {
+        // Strong password:
+        // - Min 8 characters
+        // - At least 1 uppercase
+        // - At least 1 lowercase
+        // - At least 1 digit
+        // - At least 1 special character
+        private const string DefaultPattern =
+            @"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$";
+
+        private readonly Regex _regex;
+
+        public PasswordAttribute() : base("Password must contain uppercase, lowercase, number, special character, and be at least 8 characters.")
+        {
+            _regex = new Regex(DefaultPattern, RegexOptions.Compiled);
+        }
+
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            if (value == null)
+            if (value == null || string.IsNullOrWhiteSpace(value.ToString()))
                 return ValidationResult.Success;
 
             var password = value.ToString();
 
-            // Must be more than 8 characters
-            if (password.Length <= 8)
-            {
-                var errorMessage = ErrorMessage ?? "Password must be more than 8 characters.";
-                return new ValidationResult(errorMessage);
-            }
-
-            // Must contain at least one special character
-            if (!password.Any(c => !char.IsLetterOrDigit(c)))
-            {
-                var errorMessage = ErrorMessage ?? "Password must contain at least one special character.";
-                return new ValidationResult(errorMessage);
-            }
+            if (!_regex.IsMatch(password))
+                return new ValidationResult(ErrorMessage);
 
             return ValidationResult.Success;
         }
 
         public void AddValidation(ClientModelValidationContext context)
         {
-            context.Attributes.Add("data-val", "true");
-            context.Attributes.Add("data-val-password",
-                ErrorMessage ?? "Invalid password format.");
+            context.Attributes["data-val"] = "true";
+            context.Attributes["data-val-password"] = ErrorMessage;
+            context.Attributes["data-val-password-pattern"] = DefaultPattern;
         }
+
     }
 }

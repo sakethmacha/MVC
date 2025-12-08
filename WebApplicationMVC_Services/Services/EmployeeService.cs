@@ -48,8 +48,10 @@ namespace WebApplicationMVC.Services.Services
         public async Task SoftDeleteAsync(int id)
         {
             var emp = await GetByIdAsync(id);
-            if (emp == null) return;
-
+            if (emp == null)
+            {
+                return;
+            }
             emp.IsDeleted = true;
             await _context.SaveChangesAsync();
         }
@@ -57,8 +59,10 @@ namespace WebApplicationMVC.Services.Services
         public async Task RestoreAsync(int id)
         {
             var emp = await GetByIdAsync(id);
-            if (emp == null) return;
-
+            if (emp == null)
+            {
+                return;
+            }
             emp.IsDeleted = false;
             await _context.SaveChangesAsync();
         }

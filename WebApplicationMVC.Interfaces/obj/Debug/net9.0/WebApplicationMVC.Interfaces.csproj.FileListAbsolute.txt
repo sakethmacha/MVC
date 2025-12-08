@@ -15,3 +15,4 @@ C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interface
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\ref\WebApplicationMVC.Interfaces.dll
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Validations.dll
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\bin\Debug\net9.0\WebApplicationMVC.Validations.pdb
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC.Interfaces\obj\Debug\net9.0\WebApplicationMVC.Interfaces.sourcelink.json

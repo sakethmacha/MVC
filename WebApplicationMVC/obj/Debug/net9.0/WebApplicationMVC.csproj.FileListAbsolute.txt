@@ -233,9 +233,10 @@ C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\bin\Debug
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\bin\Debug\net9.0\WebApplicationMVC.Validations.dll
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\bin\Debug\net9.0\WebApplicationMVC.Validations.pdb
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\WebApplicationMVC.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\thb2naxay9-{0}-rpng6t3mcc-rpng6t3mcc.gz
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\bin\Debug\net9.0\WebApplicationMVC.Services.dll
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\bin\Debug\net9.0\WebApplicationMVC.Services.pdb
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\sl64q21swj-{0}-ww3e4or950-ww3e4or950.gz
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\fbp189fneh-{0}-sis88hunh8-sis88hunh8.gz
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\cz7zghcfxf-{0}-6vnxsv9ve7-6vnxsv9ve7.gz
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\WebApplicationMVC.sourcelink.json
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\thb2naxay9-{0}-p1mx4ywvyl-p1mx4ywvyl.gz
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\cz7zghcfxf-{0}-cr5djt4kf0-cr5djt4kf0.gz
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\sl64q21swj-{0}-537v3z4jou-537v3z4jou.gz
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net9.0\compressed\fbp189fneh-{0}-7ztfuhonlr-7ztfuhonlr.gz

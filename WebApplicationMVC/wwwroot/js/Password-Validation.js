@@ -1,18 +1,10 @@
-﻿// Custom Password Validation (Client-Side)
-$.validator.addMethod("password", function (value, element) {
-    if (!value) return true; // allow empty if [Required] not applied
-
-    // Must be more than 8 characters
-    if (value.length <= 8) return false;
-
-    // Must contain at least one special character
-    var hasSpecialChar = /[^a-zA-Z0-9]/.test(value);
-    if (!hasSpecialChar) return false;
-
-    return true;
+﻿$.validator.addMethod("password", function (value, element, params) {
+    if (!value) return true; // allow empty, 'required' handles empty check
+    var pattern = new RegExp(params.pattern);
+    return pattern.test(value);
 });
 
-$.validator.unobtrusive.adapters.add("password", [], function (options) {
-    options.rules["password"] = true;
+$.validator.unobtrusive.adapters.add("password", ["pattern"], function (options) {
+    options.rules["password"] = { pattern: options.params.pattern };
     options.messages["password"] = options.message;
 });

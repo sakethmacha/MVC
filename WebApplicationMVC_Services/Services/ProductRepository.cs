@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models.Models;
-namespace WebApplicationMVC_Services.Services
+namespace WebApplicationMVC.Services.Services
 {
     public class ProductRepository : IProductRepository
     {

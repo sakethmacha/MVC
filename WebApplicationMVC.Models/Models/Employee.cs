@@ -20,7 +20,7 @@ public class Employee
 
     [Required]
     [MaxLength(100)]
-    [EmailValidate(ErrorMessage = "Invalid email. Must end with .com and contain a valid domain.")]
+    [EmailValidate(ErrorMessage = "Invalid email format.")]
     public string? Email { get; set; }
 
     [PhoneNumber(ErrorMessage = "Phone number must be 10 digits and start with 6, 7, 8, or 9.")]
@@ -43,7 +43,7 @@ public class Employee
 
     [Required]
     [DataType(DataType.Password)]
-    [Password(ErrorMessage = "Password must be more than 8 characters and contain at least one special character.")]
+    [Password(ErrorMessage = "Invalid password format.")]
     public string? Password { get; set; }
 
     [DataType(DataType.Password)]
@@ -54,6 +54,14 @@ public class Employee
     [Range(typeof(decimal), "0", "9999999", ErrorMessage = "Salary must be a positive value")]
     [DataType(DataType.Currency)]
     public decimal Salary { get; set; }
+
+    [Required]
+    public string? Gender { get; set; }
+    [Required]
+    public bool IsMarried { get; set; }
+
+    [Required]
+    public string? Department { get; set; }
 
     public bool IsDeleted { get; set; } = false;
 
