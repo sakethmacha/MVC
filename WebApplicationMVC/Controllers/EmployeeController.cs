@@ -6,26 +6,26 @@ namespace WebApplicationMVC.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeService Service;
+        private readonly IEmployeeService EmployeeService;
 
-        public EmployeeController(IEmployeeService service)
+        public EmployeeController(IEmployeeService employeeservice)
         {
-            Service = service;
+            EmployeeService = employeeservice;
         }
 
         public async Task<IActionResult> Index()
         {
-            return View(await Service.GetAllAsync());
+            return View(await EmployeeService.GetAllAsync());
         }
 
         public async Task<IActionResult> Deleted()
         {
-            return View(await Service.GetDeletedAsync());
+            return View(await EmployeeService.GetDeletedAsync());
         }
 
         public async Task<IActionResult> Details(int id)
         {
-            var emp = await Service.GetByIdAsync(id);
+            var emp = await EmployeeService.GetByIdAsync(id);
             if (emp == null)
             {
                 return NotFound();
@@ -47,7 +47,7 @@ namespace WebApplicationMVC.Controllers
             employee.CreatedDate = DateTime.Now;
             employee.UpdatedDate = null;
 
-            await Service.AddAsync(employee);
+            await EmployeeService.AddAsync(employee);
 
             return RedirectToAction("Index");
         }
@@ -55,7 +55,7 @@ namespace WebApplicationMVC.Controllers
 
         public async Task<IActionResult> Edit(int id)
         {
-            var emp = await Service.GetByIdAsync(id);
+            var emp = await EmployeeService.GetByIdAsync(id);
             if (emp == null)
             {
                 return NotFound();
@@ -72,7 +72,7 @@ namespace WebApplicationMVC.Controllers
             }
             employee.UpdatedDate = DateTime.Now; // update time 
 
-            await Service.UpdateAsync(employee);
+            await EmployeeService.UpdateAsync(employee);
 
             return RedirectToAction("Index");
         }
@@ -80,13 +80,13 @@ namespace WebApplicationMVC.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            await Service.SoftDeleteAsync(id);
+            await EmployeeService.SoftDeleteAsync(id);
             return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Restore(int id)
         {
-            await Service.RestoreAsync(id);
+            await EmployeeService.RestoreAsync(id);
             return RedirectToAction("Index");
         }
 
