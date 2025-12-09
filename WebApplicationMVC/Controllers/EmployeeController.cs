@@ -27,7 +27,6 @@ namespace WebApplicationMVC.Controllers
         {
             var emp = await EmployeeService.GetByIdAsync(id);
             if (emp == null)
-            {
                 return NotFound();
             }
             return View(emp);
@@ -89,8 +88,5 @@ namespace WebApplicationMVC.Controllers
             await EmployeeService.RestoreAsync(id);
             return RedirectToAction("Index");
         }
-
     }
-
-
 }
