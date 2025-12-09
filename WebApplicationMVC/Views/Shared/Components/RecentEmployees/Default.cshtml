@@ -1,0 +1,15 @@
+﻿@model List<WebApplicationMVC.Models.Models.Employee>
+
+<div class="card shadow p-3 mb-4">
+    <h5 class="fw-bold">Recently Added Employees</h5>
+    <ul class="list-group">
+
+        @foreach (var emp in Model)
+        {
+            <li class="list-group-item d-flex justify-content-between">
+                <span>@emp.FirstName @emp.LastName</span>
+                <span class="text-muted">@emp.CreatedDate.ToString("dd-MMM")</span>
+            </li>
+        }
+    </ul>
+</div>

@@ -20,8 +20,15 @@
                     Register Another Employee
                 </a>
 
+
             </div>
 
         </div>
+    </div>
+</div>
+<div class="row justify-content-center mt-3">
+    <div class="col-md-6">
+        @* <vc:recent-employees count="2"></vc:recent-employees> *@
+        @await Component.InvokeAsync("RecentEmployees", new { count = 2 })
     </div>
 </div>
