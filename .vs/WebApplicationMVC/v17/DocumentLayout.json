@@ -7,24 +7,88 @@
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc_services\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|solutionrelative:webapplicationmvc_services\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\shared\\_employeeform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_employeeform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|solutionrelative:webapplicationmvc.models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\enums\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\enums\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}|WebApplicationMVC.ViewModels\\WebApplicationMVC.ViewModels.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.viewmodels\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}|WebApplicationMVC.ViewModels\\WebApplicationMVC.ViewModels.csproj|solutionrelative:webapplicationmvc.viewmodels\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\phonenumberattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\phonenumberattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.interfaces\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\emailvalidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\emailvalidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\passwordattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\passwordattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\phonenumberattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\phonenumberattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\nonumbersattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\nonumbersattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.validations\\attributes\\emailvalidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}|WebApplicationMVC.Validations\\WebApplicationMVC.Validations.csproj|solutionrelative:webapplicationmvc.validations\\attributes\\emailvalidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|solutionrelative:webapplicationmvc.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.interfaces\\webapplicationmvc.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\webapplicationmvc.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|solutionrelative:webapplicationmvc.models\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|solutionrelative:webapplicationmvc.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|solutionrelative:webapplicationmvc.models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A741070-1AB1-4495-B7F8-E2BDD8A789F6}|WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.models\\models\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.interfaces\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.interfaces\\interfaces\\icounterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\interfaces\\icounterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\bindcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,31 +135,7 @@
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc_services\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|solutionrelative:webapplicationmvc_services\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -120,14 +144,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\shared\\_mycustomlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_mycustomlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\shared\\_employeeform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_employeeform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -141,20 +157,12 @@
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\wwwroot\\js\\email-validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\views\\employee\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\employee\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc_services\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|solutionrelative:webapplicationmvc_services\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc.interfaces\\webapplicationmvc.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F16A3605-C5A8-422A-A8AC-B113210855A0}|WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj|solutionrelative:webapplicationmvc.interfaces\\webapplicationmvc.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -189,10 +197,6 @@
       "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF56E9B7-986A-4426-9D62-E4486AE44863}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|c:\\users\\saketh macha\\source\\repos\\webapplicationmvc\\webapplicationmvc_services\\services\\requestidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D9E2A4-0A30-471D-B17C-3ACF550F4B3E}|WebApplicationMVC_Services\\WebApplicationMVC.Services.csproj|solutionrelative:webapplicationmvc_services\\services\\requestidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -224,45 +228,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApplicationMVC\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T09:45:22.296Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeToolTip": "WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:09:31.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Student.cs",
-              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:09:24.154Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -278,46 +257,16 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmailValidate.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
-              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:34:46.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NoNumbersAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
-              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:43:21.579Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PasswordAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
-              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:43:26.658Z",
+              "Title": "_EmployeeForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwH8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T06:56:47.268Z",
               "EditorCaption": ""
             },
             {
@@ -328,14 +277,261 @@
               "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "WebApplicationMVC\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T12:13:44.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC_Services\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\EmployeeService.cs*",
+              "RelativeToolTip": "WebApplicationMVC_Services\\Services\\EmployeeService.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAD4vysAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:03:07.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:07:02.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Employee.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T10:27:58.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:37:14.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Enums\\Department.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Enums\\Department.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Enums\\Department.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Enums\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:55:04.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailValidate.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
+              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\EmailValidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:34:46.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeToolTip": "WebApplicationMVC.ViewModels\\ViewModels\\EmployeeViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvy4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:09:31.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PasswordAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
+              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\PasswordAttribute.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:43:26.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAywBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:08:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PhoneNumberAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
+              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAywA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:05.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NoNumbersAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
+              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\NoNumbersAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:43:21.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T10:35:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T06:22:15.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Deleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T10:44:53.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T10:45:03.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T10:35:46.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Success.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Success.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T08:32:44.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Order.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:32:04.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WebApplicationMVC.Interfaces.csproj",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
+              "RelativeToolTip": "WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T04:30:45.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\OrderStatus.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\OrderStatus.cs",
@@ -348,46 +544,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Order.cs",
-              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Order.cs",
+              "DocumentIndex": 22,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T05:32:04.659Z",
+              "WhenOpened": "2025-12-09T06:09:24.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PhoneNumberAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
-              "RelativeToolTip": "WebApplicationMVC.Validations\\Attributes\\PhoneNumberAttribute.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:45:05.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Employee.cs",
-              "RelativeToolTip": "WebApplicationMVC.Models\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:27:58.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "Details.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\Details.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\Details.cs",
@@ -400,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Models\\ApplicationDbContext.cs",
@@ -413,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "IRequestService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IRequestService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\IRequestService.cs",
@@ -426,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\IProductRepository.cs",
@@ -439,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\IOrderService.cs",
@@ -452,20 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApplicationMVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:08:38.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "DetailsController.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\DetailsController.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\DetailsController.cs",
@@ -478,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "ValidationController.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\ValidationController.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\ValidationController.cs",
@@ -491,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "ICounterService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\ICounterService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\ICounterService.cs",
@@ -504,33 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
-              "RelativeToolTip": "WebApplicationMVC.Interfaces\\Interfaces\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:07:02.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "WebApplicationMVC\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T05:37:14.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "BindController.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\BindController.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\BindController.cs",
@@ -543,58 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC_Services\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "WebApplicationMVC_Services\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:03:07.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T10:35:46.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T06:22:15.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T10:35:48.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -606,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
@@ -618,19 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Success.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Success.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Success.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T05:26:17.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "_MyCustomLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_MyCustomLayout.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_MyCustomLayout.cshtml",
@@ -642,31 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "_EmployeeForm.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Shared\\_EmployeeForm.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T06:56:47.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T10:45:03.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Program.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Program.cs",
@@ -678,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -690,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Order\\Create.cshtml",
@@ -702,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "Email-Validation.js",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\wwwroot\\js\\Email-Validation.js",
               "RelativeDocumentMoniker": "WebApplicationMVC\\wwwroot\\js\\Email-Validation.js",
@@ -714,31 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "WebApplicationMVC.Interfaces.csproj",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
-              "RelativeDocumentMoniker": "WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
-              "RelativeToolTip": "WebApplicationMVC.Interfaces\\WebApplicationMVC.Interfaces.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T04:30:45.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Deleted.cshtml",
-              "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
-              "ToolTip": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Employee\\Deleted.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T10:44:53.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC_Services\\Services\\OrderService.cs",
@@ -750,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "EmployeeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\ViewModels\\EmployeeViewModel.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\ViewModels\\EmployeeViewModel.cs",
@@ -762,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "CounterService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\CounterService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC_Services\\Services\\CounterService.cs",
@@ -774,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "_ConfirmModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_ConfirmModal.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_ConfirmModal.cshtml",
@@ -786,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\_ViewStart.cshtml",
@@ -798,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "CreateViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\ViewModels\\CreateViewModel.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC\\ViewModels\\CreateViewModel.cs",
@@ -810,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Password-Validation.js",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\wwwroot\\js\\Password-Validation.js",
               "RelativeDocumentMoniker": "WebApplicationMVC\\wwwroot\\js\\Password-Validation.js",
@@ -822,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "nonumbers-validation.js",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\wwwroot\\js\\nonumbers-validation.js",
               "RelativeDocumentMoniker": "WebApplicationMVC\\wwwroot\\js\\nonumbers-validation.js",
@@ -834,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -846,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20251208104427_Prop.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Migrations\\20251208104427_Prop.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Migrations\\20251208104427_Prop.cs",
@@ -858,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Views\\Validation\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Validation\\Create.cshtml",
@@ -870,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplicationMVC\\Properties\\launchSettings.json",
@@ -882,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Phone-Validation.js",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC\\wwwroot\\js\\Phone-Validation.js",
               "RelativeDocumentMoniker": "WebApplicationMVC\\wwwroot\\js\\Phone-Validation.js",
@@ -894,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "RequestIdService.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC_Services\\Services\\RequestIdService.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC_Services\\Services\\RequestIdService.cs",
@@ -906,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20251208053544_AddOrderStatusSeed.cs",
               "DocumentMoniker": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\Migrations\\20251208053544_AddOrderStatusSeed.cs",
               "RelativeDocumentMoniker": "WebApplicationMVC.Models\\Migrations\\20251208053544_AddOrderStatusSeed.cs",

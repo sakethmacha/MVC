@@ -12,7 +12,7 @@ using WebApplicationMVC.ViewModels.ViewModels;
             Task AddAsync(EmployeeViewModel vm);
             Task UpdateAsync(EmployeeViewModel vm);
 
-            Task SoftDeleteAsync(int id);
+            Task DeleteAsync(int id);
             Task RestoreAsync(int id);
         }
     }

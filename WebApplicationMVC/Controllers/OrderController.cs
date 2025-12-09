@@ -13,7 +13,7 @@ namespace WebApplicationMVC.Controllers
             OrderService = orderService;
         }
         [HttpGet]
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
             return View();
         }

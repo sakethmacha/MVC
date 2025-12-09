@@ -8,9 +8,9 @@ namespace WebApplicationMVC.Services.Services
     {
         private readonly ApplicationDbContext DbContext;
 
-        public EmployeeService(ApplicationDbContext context)
+        public EmployeeService(ApplicationDbContext dbContext)
         {
-            DbContext = context;
+            DbContext = dbContext;
         }
 
         public async Task<List<Employee>> GetAllAsync()
@@ -33,22 +33,23 @@ namespace WebApplicationMVC.Services.Services
                 .FirstOrDefaultAsync(x => x.EmployeeId == id);
         }
 
-        public async Task AddAsync(EmployeeViewModel vm)
+        public async Task AddAsync(EmployeeViewModel employeeViewModel)
         {
             var employee = new Employee
             {
-                FirstName = vm.FirstName,
-                LastName = vm.LastName,
-                Email = vm.Email,
-                Phone = vm.Phone,
-                Age = vm.Age,
-                DOB = vm.DOB,
-                Address = vm.Address,
-                Password = vm.Password,
-                Salary = vm.Salary,
-                Gender = vm.Gender,
-                IsMarried = vm.IsMarried,
-                Department = vm.Department,
+                FirstName = employeeViewModel.FirstName,
+                LastName = employeeViewModel.LastName,
+                Email = employeeViewModel.Email,
+                Phone = employeeViewModel.Phone,
+                Age = employeeViewModel.Age,
+                DOB = employeeViewModel.DOB,
+                Address = employeeViewModel.Address,
+                Password = employeeViewModel.Password,
+                ConfirmPassword = employeeViewModel.Password,
+                Salary = employeeViewModel.Salary,
+                Gender = employeeViewModel.Gender,
+                IsMarried = employeeViewModel.IsMarried,
+                Department = employeeViewModel.Department,
                 CreatedDate = DateTime.Now,
                 UpdatedDate = null,
                 IsDeleted = false
@@ -58,46 +59,46 @@ namespace WebApplicationMVC.Services.Services
             await DbContext.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(EmployeeViewModel vm)
+        public async Task UpdateAsync(EmployeeViewModel employeeViewModel)
         {
-            var employee = await DbContext.Employees.FindAsync(vm.EmployeeId);
+            var employee = await DbContext.Employees.FindAsync(employeeViewModel.EmployeeId);
             if (employee == null)
                 return;
 
-            employee.FirstName = vm.FirstName;
-            employee.LastName = vm.LastName;
-            employee.Email = vm.Email;
-            employee.Phone = vm.Phone;
-            employee.Age = vm.Age;
-            employee.DOB = vm.DOB;
-            employee.Address = vm.Address;
-            employee.Salary = vm.Salary;
-            employee.Gender = vm.Gender;
-            employee.IsMarried = vm.IsMarried;
-            employee.Department = vm.Department;
+            employee.FirstName = employeeViewModel.FirstName;
+            employee.LastName = employeeViewModel.LastName;
+            employee.Email = employeeViewModel.Email;
+            employee.Phone = employeeViewModel.Phone;
+            employee.Age = employeeViewModel.Age;
+            employee.DOB = employeeViewModel.DOB;
+            employee.Address = employeeViewModel.Address;
+            employee.Salary = employeeViewModel.Salary;
+            employee.Gender = employeeViewModel.Gender;
+            employee.IsMarried = employeeViewModel.IsMarried;
+            employee.Department = employeeViewModel.Department;
             employee.UpdatedDate = DateTime.Now;
 
             DbContext.Employees.Update(employee);
             await DbContext.SaveChangesAsync();
         }
 
-        public async Task SoftDeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            var emp = await GetByIdAsync(id);
-            if (emp == null)
+            var employee = await GetByIdAsync(id);
+            if (employee == null)
                 return;
 
-            emp.IsDeleted = true;
+            employee.IsDeleted = true;
             await DbContext.SaveChangesAsync();
         }
 
         public async Task RestoreAsync(int id)
         {
-            var emp = await GetByIdAsync(id);
-            if (emp == null)
+            var employee = await GetByIdAsync(id);
+            if (employee == null)
                 return;
 
-            emp.IsDeleted = false;
+            employee.IsDeleted = false;
             await DbContext.SaveChangesAsync();
         }
     }

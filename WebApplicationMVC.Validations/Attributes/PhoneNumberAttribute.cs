@@ -5,7 +5,7 @@ namespace WebApplicationMVC.Validations.Attributes
 {
     public class PhoneNumberAttribute : ValidationAttribute, IClientModelValidator
     {
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             if (value == null)
                 return ValidationResult.Success;
@@ -13,7 +13,7 @@ namespace WebApplicationMVC.Validations.Attributes
             var phone = value.ToString();
 
             // Exactly 10 digits
-            if (phone.Length != 10 || !phone.All(char.IsDigit))
+            if (phone!.Length != 10 || !phone!.All(char.IsDigit))
             {
                 var errorMessage = ErrorMessage ?? "Phone number must be exactly 10 digits.";
                 return new ValidationResult(errorMessage);

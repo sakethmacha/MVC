@@ -28,11 +28,11 @@ namespace WebApplicationMVC.Controllers
         // Employee details
         public async Task<IActionResult> Details(int id)
         {
-            var emp = await EmployeeService.GetByIdAsync(id);
-            if (emp == null)
+            var employee = await EmployeeService.GetByIdAsync(id);
+            if (employee == null)
                 return NotFound();
 
-            return View(emp);
+            return View(employee);
         }
 
         // GET: Create form
@@ -43,12 +43,12 @@ namespace WebApplicationMVC.Controllers
 
         // POST: Create employee
         [HttpPost]
-        public async Task<IActionResult> Create(EmployeeViewModel vm)
+        public async Task<IActionResult> Create(EmployeeViewModel employeeViewModel)
         {
             if (!ModelState.IsValid)
-                return View(vm);
+                return View(employeeViewModel);
 
-            await EmployeeService.AddAsync(vm);
+            await EmployeeService.AddAsync(employeeViewModel);
 
             return RedirectToAction("Success");
         }
@@ -56,37 +56,37 @@ namespace WebApplicationMVC.Controllers
         // GET: Edit form
         public async Task<IActionResult> Edit(int id)
         {
-            var emp = await EmployeeService.GetByIdAsync(id);
-            if (emp == null)
+            var employee = await EmployeeService.GetByIdAsync(id);
+            if (employee == null)
                 return NotFound();
 
-            var vm = new EmployeeViewModel
+            var employeeViewModel = new EmployeeViewModel
             {
-                EmployeeId = emp.EmployeeId,
-                FirstName = emp.FirstName,
-                LastName = emp.LastName,
-                Email = emp.Email,
-                Phone = emp.Phone,
-                Age = emp.Age,
-                DOB = emp.DOB,
-                Address = emp.Address,
-                Salary = emp.Salary,
-                Gender = emp.Gender,
-                IsMarried = emp.IsMarried,
-                Department = emp.Department
+                EmployeeId = employee.EmployeeId,
+                FirstName = employee.FirstName,
+                LastName = employee.LastName,
+                Email = employee.Email,
+                Phone = employee.Phone,
+                Age = employee.Age,
+                DOB = employee.DOB,
+                Address = employee.Address,
+                Salary = employee.Salary,
+                Gender = employee.Gender,
+                IsMarried = employee.IsMarried,
+                Department = employee.Department
             };
 
-            return View(vm);
+            return View(employeeViewModel);
         }
 
         // POST: Update employee
         [HttpPost]
-        public async Task<IActionResult> Edit(EmployeeViewModel vm)
+        public async Task<IActionResult> Edit(EmployeeViewModel employeeViewModel)
         {
             if (!ModelState.IsValid)
-                return View(vm);
+                return View(employeeViewModel);
 
-            await EmployeeService.UpdateAsync(vm);
+            await EmployeeService.UpdateAsync(employeeViewModel);
 
             return RedirectToAction("Index");
         }
@@ -99,7 +99,7 @@ namespace WebApplicationMVC.Controllers
         // Soft delete employee
         public async Task<IActionResult> Delete(int id)
         {
-            await EmployeeService.SoftDeleteAsync(id);
+            await EmployeeService.DeleteAsync(id);
             return RedirectToAction("Index");
         }
 

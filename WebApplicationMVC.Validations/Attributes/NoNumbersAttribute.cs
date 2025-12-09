@@ -5,14 +5,14 @@ namespace WebApplicationMVC.Validations.Attributes
 {
     public class NoNumbersAttribute : ValidationAttribute, IClientModelValidator
     {
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             if (value == null)
                 return ValidationResult.Success;
 
             var stringValue = value.ToString();
 
-            foreach (char c in stringValue)
+            foreach (char c in stringValue!)
             {
                 if (char.IsDigit(c))
                 {

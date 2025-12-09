@@ -74,7 +74,7 @@
         <span asp-validation-for="Gender" class="text-danger"></span>
     </div>
 
-    <!-- Department Dropdown -->
+    @* <!-- Department Dropdown -->
     <div class="col-md-6 mb-3">
         <label asp-for="Department" class="form-label required"></label>
         <select asp-for="Department" class="form-select">
@@ -85,6 +85,16 @@
             <option value="Sales">Sales</option>
             <option value="Marketing">Marketing</option>
         </select>
+        <span asp-validation-for="Department" class="text-danger"></span>
+    </div> *@
+    <div class="col-md-6 mb-3">
+        <label asp-for="Department" class="form-label required"></label>
+
+        <select asp-for="Department" class="form-select"
+                asp-items="new SelectList(Enum.GetNames(typeof(WebApplicationMVC.Enums.Department)))">
+            <option value="">-- Select Department --</option>
+        </select>
+
         <span asp-validation-for="Department" class="text-danger"></span>
     </div>
 

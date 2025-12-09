@@ -22,14 +22,14 @@ namespace WebApplicationMVC.Validations.Attributes
             _regex = new Regex(DefaultPattern, RegexOptions.Compiled);
         }
 
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             if (value == null || string.IsNullOrWhiteSpace(value.ToString()))
                 return ValidationResult.Success;
 
             var password = value.ToString();
 
-            if (!_regex.IsMatch(password))
+            if (!_regex.IsMatch(password!))
                 return new ValidationResult(ErrorMessage);
 
             return ValidationResult.Success;
@@ -38,7 +38,7 @@ namespace WebApplicationMVC.Validations.Attributes
         public void AddValidation(ClientModelValidationContext context)
         {
             context.Attributes["data-val"] = "true";
-            context.Attributes["data-val-password"] = ErrorMessage;
+            context.Attributes["data-val-password"] = ErrorMessage!;
             context.Attributes["data-val-password-pattern"] = DefaultPattern;
         }
 

@@ -11,7 +11,7 @@ namespace WebApplicationMVC.Models.Models
         [MaxLength(150)]
         [Display(Name = "Customer Name")]
         [NoNumbers(ErrorMessage = "Customer name cannot contain numbers")]
-        public string CustomerName { get; set; }
+        public string? CustomerName { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
@@ -19,7 +19,7 @@ namespace WebApplicationMVC.Models.Models
         [Required]
         public int StatusId { get; set; }
 
-        public OrderStatus Status { get; set; }
+        public OrderStatus? Status { get; set; }
     }
 
 }
