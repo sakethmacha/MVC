@@ -1,11 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
-using WebApplicationMVC.Validations.Attributes;
+﻿using WebApplicationMVC.Validations.Attributes;
+using System.ComponentModel.DataAnnotations;
 
-namespace WebApplicationMVC.ViewModels
+namespace WebApplicationMVC.ViewModels.ViewModels
 {
     public class EmployeeViewModel
     {
-        public int EmployeeId { get; set; } // used only for Edit
+        public int EmployeeId { get; set; } 
 
         [Required(ErrorMessage = "First Name is required")]
         [StringLength(50, MinimumLength = 2)]

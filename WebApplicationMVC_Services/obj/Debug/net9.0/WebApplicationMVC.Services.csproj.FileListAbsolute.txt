@@ -18,3 +18,5 @@ C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\obj\Debug\net9.0\WebApplicationMVC.Services.pdb
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\obj\Debug\net9.0\ref\WebApplicationMVC.Services.dll
 C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\obj\Debug\net9.0\WebApplicationMVC.Services.sourcelink.json
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\bin\Debug\net9.0\WebApplicationMVC.ViewModels.dll
+C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC_Services\bin\Debug\net9.0\WebApplicationMVC.ViewModels.pdb

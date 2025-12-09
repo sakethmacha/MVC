@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WebApplicationMVC.Interfaces\WebApplicationMVC.Interfaces.csproj" />
     <ProjectReference Include="..\WebApplicationMVC.Models\WebApplicationMVC.Models.csproj" />
+    <ProjectReference Include="..\WebApplicationMVC.ViewModels\WebApplicationMVC.ViewModels.csproj" />
     <ProjectReference Include="..\WebApplicationMVC_Services\WebApplicationMVC.Services.csproj" />
   </ItemGroup>
 

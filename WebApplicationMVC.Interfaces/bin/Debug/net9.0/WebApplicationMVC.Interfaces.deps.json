@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "WebApplicationMVC.Interfaces/1.0.0": {
         "dependencies": {
-          "WebApplicationMVC.Models": "1.0.0"
+          "WebApplicationMVC.Models": "1.0.0",
+          "WebApplicationMVC.ViewModels": "1.0.0"
         },
         "runtime": {
           "WebApplicationMVC.Interfaces.dll": {}
@@ -520,6 +521,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "WebApplicationMVC.ViewModels/1.0.0": {
+        "dependencies": {
+          "WebApplicationMVC.Validations": "1.0.0"
+        },
+        "runtime": {
+          "WebApplicationMVC.ViewModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -794,6 +806,11 @@
       "sha512": ""
     },
     "WebApplicationMVC.Validations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApplicationMVC.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

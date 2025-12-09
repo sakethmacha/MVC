@@ -1,14 +1,18 @@
-﻿namespace WebApplicationMVC.Interfaces.Interfaces
-{
-    public interface IEmployeeService
+﻿
+using WebApplicationMVC.Models.Models;
+using WebApplicationMVC.ViewModels.ViewModels;
+    namespace WebApplicationMVC.Interfaces.Interfaces
     {
-        Task<List<Employee>> GetAllAsync();
-        Task<List<Employee>> GetDeletedAsync();
-        Task<Employee?> GetByIdAsync(int id);
-        Task AddAsync(Employee employee);
-        Task UpdateAsync(Employee employee);
-        Task SoftDeleteAsync(int id);
-        Task RestoreAsync(int id);
-    }
+        public interface IEmployeeService
+        {
+            Task<List<Employee>> GetAllAsync();
+            Task<List<Employee>> GetDeletedAsync();
+            Task<Employee?> GetByIdAsync(int id);
 
-}
+            Task AddAsync(EmployeeViewModel vm);
+            Task UpdateAsync(EmployeeViewModel vm);
+
+            Task SoftDeleteAsync(int id);
+            Task RestoreAsync(int id);
+        }
+    }

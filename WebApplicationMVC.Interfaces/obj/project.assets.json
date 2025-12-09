@@ -1016,6 +1016,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "WebApplicationMVC.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "WebApplicationMVC.Validations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebApplicationMVC.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationMVC.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -2776,11 +2789,17 @@
       "type": "project",
       "path": "../WebApplicationMVC.Validations/WebApplicationMVC.Validations.csproj",
       "msbuildProject": "../WebApplicationMVC.Validations/WebApplicationMVC.Validations.csproj"
+    },
+    "WebApplicationMVC.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationMVC.ViewModels/WebApplicationMVC.ViewModels.csproj",
+      "msbuildProject": "../WebApplicationMVC.ViewModels/WebApplicationMVC.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "WebApplicationMVC.Models >= 1.0.0"
+      "WebApplicationMVC.Models >= 1.0.0",
+      "WebApplicationMVC.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2817,6 +2836,9 @@
           "projectReferences": {
             "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj": {
               "projectPath": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.Models\\WebApplicationMVC.Models.csproj"
+            },
+            "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\WebApplicationMVC.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Saketh Macha\\source\\repos\\WebApplicationMVC\\WebApplicationMVC.ViewModels\\WebApplicationMVC.ViewModels.csproj"
             }
           }
         }

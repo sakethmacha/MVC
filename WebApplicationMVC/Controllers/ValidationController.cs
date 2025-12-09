@@ -25,8 +25,6 @@ namespace WebApplicationMVC.Controllers
                 return View(model);
             }
             return RedirectToAction("Display");
-            // Here data is valid → you can save to DB, etc.
-            return View(model);
         }
         [HttpGet]
         public IActionResult Display()

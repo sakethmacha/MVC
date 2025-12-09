@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC.Services"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC.Validations", "WebApplicationMVC.Validations\WebApplicationMVC.Validations.csproj", "{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC.ViewModels", "WebApplicationMVC.ViewModels\WebApplicationMVC.ViewModels.csproj", "{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{968DA2E4-5BAD-4ECA-8F4D-F88AAD900DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284DEAB0-9C37-4D66-9B2D-BB2F0C10972C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

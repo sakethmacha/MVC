@@ -1,4 +1,4 @@
-﻿@model Employee
+﻿@model WebApplicationMVC.ViewModels.ViewModels.EmployeeViewModel
 
 <div class="container mt-4">
     <h2 class="fw-bold text-center">Edit Employee</h2>
@@ -7,7 +7,6 @@
         <form asp-action="Edit">
 
             @Html.HiddenFor(m => m.EmployeeId)
-            @Html.HiddenFor(m => m.CreatedDate)
 
             @Html.Partial("_EmployeeForm", Model)
 

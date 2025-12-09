@@ -1,7 +1,0 @@
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfoInputs.cache
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfo.cs
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.CoreCompileInputs.cache
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cache
-C:\Users\Saketh Macha\source\repos\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cs
