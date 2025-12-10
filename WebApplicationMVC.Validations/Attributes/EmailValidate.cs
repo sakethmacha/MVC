@@ -8,7 +8,6 @@ namespace WebApplicationMVC.Validations.Attributes
     {
         private const string Pattern = @"^[A-Za-z0-9]+@[A-Za-z]+\.com$";
 
-
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             if (value == null)

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplicationMVC.Filters;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.ViewModels.ViewModels;
 
@@ -36,6 +37,8 @@ namespace WebApplicationMVC.Controllers
         }
 
         // GET: Create form
+        [TypeFilter(typeof(HumanResultFilter))]
+        //[HumanResultFilter]
         public IActionResult Create()
         {
             return View();
@@ -43,6 +46,7 @@ namespace WebApplicationMVC.Controllers
 
         // POST: Create employee
         [HttpPost]
+        [ServiceFilter(typeof(DataCheckFilter))]
         public async Task<IActionResult> Create(EmployeeViewModel employeeViewModel)
         {
             if (!ModelState.IsValid)
@@ -54,6 +58,8 @@ namespace WebApplicationMVC.Controllers
         }
 
         // GET: Edit form
+        [ServiceFilter(typeof(DataCheckFilter))]
+
         public async Task<IActionResult> Edit(int id)
         {
             var employee = await EmployeeService.GetByIdAsync(id);

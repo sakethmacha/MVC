@@ -5,7 +5,7 @@ using System.Diagnostics;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models;
 using WebApplicationMVC.ViewModels;
-
+using WebApplicationMVC.Filters;
 namespace WebApplicationMVC.Controllers
 {
     [Route("")]              // <--- Makes this controller respond to "/"
@@ -79,7 +79,9 @@ namespace WebApplicationMVC.Controllers
             //return View();
         }
 
-        [Authorize] // only logged-in users can see this
+        //[Authorize] // only logged-in users can see this
+        //[TypeFilter(typeof(CustomAuthorizationFilter))]
+        [CustomAuthorizationFilter]
         [HttpGet("SecretPage")]
         public IActionResult SecretPage()
         {

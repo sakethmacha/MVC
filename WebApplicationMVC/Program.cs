@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using WebApplicationMVC.Filters;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models.Models;
 using WebApplicationMVC.Services.Services;
@@ -10,8 +11,14 @@ namespace WebApplicationMVC
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //builder.Services.AddScoped<HumanResultFilter>();
+            //builder.Services.AddScoped<CustomAuthorizationFilter>();
+            //builder.Services.AddScoped<BlockBefore9AMFilter>();
+            //builder.Services.AddScoped<MyExceptionFilter>();
+            builder.Services.AddScoped<DataCheckFilter>();
+            builder.Services.AddScoped<IEmployeeValidationService, EmployeeValidationService>();
 
-           //builder.Services.AddTransient<IRequestIdService, RequestIdService>();
+            //builder.Services.AddTransient<IRequestIdService, RequestIdService>();
             builder.Services.AddScoped<IRequestService, RequestIdService>();
            
             //builder.Services.AddScoped<IRequestIdService, RequestIdService>();
@@ -37,7 +44,8 @@ namespace WebApplicationMVC
                     options.LoginPath = "/Account/Login";   // redirect here if not logged in
                 });
 
-            // builder.Services.AddAuthorization();
+
+            //builder.Services.AddAuthorization();
             builder.Services.AddSession();
 
             var app = builder.Build();

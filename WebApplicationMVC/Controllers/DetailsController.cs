@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models.Models;
 using WebApplicationMVC.ViewModels;
+using WebApplicationMVC.Filters;
 namespace WebApplicationMVC.Controllers
 {
     public class DetailsController : Controller
@@ -16,8 +18,11 @@ namespace WebApplicationMVC.Controllers
         }
 
         [HttpGet]
+        //[TypeFilter(typeof(MyExceptionFilter))]
+        [MyExceptionFilter]
         public IActionResult Create()
         {
+            int number = int.Parse("abc");
             return View();
         }
         [HttpPost]

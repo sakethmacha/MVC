@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplicationMVC.Filters;
 using WebApplicationMVC.Interfaces.Interfaces;
 using WebApplicationMVC.Models.Models;
 
@@ -13,6 +14,8 @@ namespace WebApplicationMVC.Controllers
             OrderService = orderService;
         }
         [HttpGet]
+        //[TypeFilter(typeof(BlockBefore9AMFilter))]
+        [BlockBefore9AMFilter]
         public IActionResult Create()
         {
             return View();
